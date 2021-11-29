@@ -70,7 +70,7 @@ public class BoardServiceTest {
         List<BoardDTO> boardList = boardService.findAll();
 
         //then
-        assertEquals(500, boardList.size());
+        assertEquals(5000, boardList.size());
     }
 
     @Test
